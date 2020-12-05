@@ -1,0 +1,60 @@
+body {
+	width: 100%;
+}
+
+header {
+	width: 100%;
+	text-align: center;
+	padding-bottom: 15px;
+	margin-bottom: 10px;
+}
+
+h1 {
+	margin-bottom: 10px;
+}
+
+h2 {
+	width: 100%;
+	margin-bottom: 4px;
+}
+
+nav {
+	margin: auto;
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+}
+
+img {
+	width: 80%;
+	object-fit: contain;
+	height: 60%;
+	overflow: hidden;
+}
+
+p {
+	width: 90%;
+	margin: auto;
+}
+
+.single-image {
+	width: 30%;
+	height: 25vh;
+	text-align: center;
+	margin: 8px;
+	padding: 4px;
+}
+
+.gallery {
+	width: 100%;
+	max-width: 960px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+}
