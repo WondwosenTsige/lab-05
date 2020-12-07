@@ -135,3 +135,11 @@ $('.sort-btn').on('click', (e) => {
     $('.page1').hide();
   }
 });
+
+// $()
+// var fireWork = new Audio();
+// fireWork.src = "./sounds/.wav";
+// fireWork.volume = 0.1;
+// fireWork.oncanplaythrough = function(){
+//   fireWork.play;
+// }
